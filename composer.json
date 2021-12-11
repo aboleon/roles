@@ -1,0 +1,39 @@
+{
+    "name": "aboleon/roles",
+    "description": "Aboleon Roles",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "keywords": [
+        "framework",
+        "roles",
+        "aboleon"
+    ],
+    "authors": [
+        {
+            "name": "aboleon",
+            "email": "dev@aboleon.media"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.54"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aboleon\\Roles\\": "src",
+            "Aboleon\\Roles\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aboleon\\Roles\\ServiceProvider",
+                "Aboleon\\Roles\\RouteServiceProvider"
+            ]
+        }
+    }
+}
