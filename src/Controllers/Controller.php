@@ -1,6 +1,6 @@
 <?php
 
-namespace Aboleon\Roles\Http\Controllers;
+namespace Aboleon\Roles\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
